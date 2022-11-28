@@ -43,7 +43,6 @@ header>h1{
     display: flex;
     justify-content: space-evenly;
     margin: 0px 25vh 0px 25vh;
-    background-color: rgba(133, 114, 114, 0.24);
 }
 
 /*rules*/
@@ -63,7 +62,6 @@ header>h1{
     height: 30vh;
     background: url(../images/cards-background.jpg) no-repeat center center;
     width: 30%;
-    margin-left: 30px;
     margin-top: 3%;
     font-size: 18vh;
     border-radius: 8%;
@@ -74,16 +72,17 @@ header>h1{
 /*game interaction buttons*/
 
 .interact {
-   position: relative; 
+    margin-top: 16%;
 }
 
 .above {
-    position:absolute;
+    margin-bottom: 10%;
+    font-size: 5vh;
 }
 
 .below {
-    position:absolute;
-
+    margin-top: 10%;
+    font-size: 5vh;
 }
 
 /*Media queris for screen with max-width 700px*/
