@@ -32,7 +32,6 @@ header>h1{
 
 .game-field {
     height: 50%;
-    width: 80;;
     background-color: antiquewhite;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
@@ -43,5 +42,14 @@ header>h1{
 /*rules*/
 
 .rules {
-    
+
+}
+
+.game-cards {
+    height: fit-content;
+    background-color: rgb(78, 168, 165);
+    width: fit-content;
+    margin-left: 30px;
+    font-size: 18vh;
+    display: block;
 }
