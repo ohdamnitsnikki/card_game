@@ -39,17 +39,47 @@ header>h1{
     margin-right: 10%;
 }
 
+.game-content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(133, 114, 114, 0.24);
+}
+
 /*rules*/
 
 .rules {
+    border-bottom: 1px black solid;
 
 }
 
+.rules>h3{
+    padding-top:2%;
+}
+
+/*game cards*/
+
 .game-cards {
     height: fit-content;
-    background-color: rgb(78, 168, 165);
+    background: url('../images/cards-background.jpg') no-repeat center center;
     width: fit-content;
     margin-left: 30px;
+    margin-top: 2%;
     font-size: 18vh;
-    display: block;
+    border-radius: 8%;
+    border: 1px solid black;
+}
+
+/*game interaction buttons*/
+
+.interact {
+    
+}
+
+.above {
+ 
+}
+
+.above {
+
+
 }
