@@ -17,7 +17,6 @@ header{
     height:20%;
     background-color: antiquewhite;
     color:black;
-    display:flex;
     text-align: center;
     display: inline-block;
     
@@ -27,4 +26,22 @@ header>h1{
     font-size: 8vh;
     font-style: oblique;
     align-self: auto;
+}
+
+/*gamefield*/
+
+.game-field {
+    height: 50%;
+    width: 80;;
+    background-color: antiquewhite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*rules*/
+
+.rules {
+    
 }
