@@ -6,13 +6,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (let button of buttons) {
         button.addEventListener("click", function(){
-            
+
         })
     }
 
 })
 
-startGame()
+startGame() {
+
+    //creates two whole random numbers between 1-14
+    let num1 = Math.floor(Math.random() * 14) +1;
+    let num2 = Math.floor(Math.random() * 14) +1;
+}
 
 checkAnswer()
 
