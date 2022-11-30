@@ -44,16 +44,25 @@ function startGame(gameType) {
    document.querySelector(".start").disabled = true;
     //creates two whole random numbers between 1-14
     console.log(leftText, "num")
+    document.querySelector(".above").disabled = false;
+    document.querySelector(".below").disabled = false;
+    
 
 }
 
 
 upArrow.addEventListener("click", function(){
     checkAnswer("up")
+    document.querySelector(".start").disabled = false;
+    document.querySelector(".above").disabled = true;
+    document.querySelector(".below").disabled = true;
 })
 
 downArrow.addEventListener("click", function(){
     checkAnswer("down")
+    document.querySelector(".start").disabled = false;
+    document.querySelector(".below").disabled = true;
+    document.querySelector(".above").disabled = true;
 })
 
 
