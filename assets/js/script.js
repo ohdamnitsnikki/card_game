@@ -76,7 +76,6 @@ downArrow.addEventListener("click", function(){
 
     const isHigher = rightText.innerText > leftText.innerText
     const isLower = rightText.innerText < leftText.innerText
-    const isEqual = rightText.innerText == leftText.innerText
 
     if(userSelection === "up") {
         
@@ -95,9 +94,7 @@ downArrow.addEventListener("click", function(){
 
     }
 
-   // console.log(isHigher, "isHigher")
 
- 
 
 // function checkCorrectAnswer()
 
