@@ -5,6 +5,8 @@ const startBtn = document.getElementById("start")
 
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
+    document.querySelector(".above").disabled = true;
+    document.querySelector(".below").disabled = true;
 
     // for (let button of buttons) {
     //     button.addEventListener("click", function() {
