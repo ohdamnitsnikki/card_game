@@ -75,20 +75,18 @@ downArrow.addEventListener("click", function(){
             console.log("you lost!")  
         }
         
-    }else if(userSelection === "down"){
+    }else(userSelection === "down");
         if(userSelection === "down" && isLower){
             console.log("you won!")
         }else{
             console.log("you lost!")
         }
 
-    }else{
-
     }
 
    // console.log(isHigher, "isHigher")
 
- }
+ 
 
 // function checkCorrectAnswer()
 
