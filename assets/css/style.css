@@ -65,7 +65,7 @@ header>h1{
 .game-card-left, .game-card-right {
     height: 30vh;
     background: url(../images/cards-background.jpg) no-repeat center center;
-    width: 30%;
+    width: 50vh;
     margin-top: 3%;
     font-size: 18vh;
     border-radius: 8%;
