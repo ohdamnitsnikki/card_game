@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
  * and after the user pressed one of the buttons
  */
 //add eventlistener to btn click
-//get random number btw 1-14
+//get random number btw 1-10
 //insert in DOM
 
 startBtn.addEventListener("click", startGame)
@@ -39,10 +39,10 @@ let downArrow = document.querySelector(".below")
 
 
 function startGame(gameType) {
-    let num1 = Math.floor(Math.random() * 14) +1;
+    let num1 = Math.floor(Math.random() * 10) +1;
    leftText.innerText = num1
    document.querySelector(".start").disabled = true;
-    //creates two whole random numbers between 1-14
+    //creates two whole random numbers between 1-10
     console.log(leftText, "num")
 
 }
@@ -60,7 +60,7 @@ downArrow.addEventListener("click", function(){
 
  function checkAnswer(userSelection){
     console.log(userSelection, "user selection")
-    let num2 = Math.floor(Math.random() * 14) +1;
+    let num2 = Math.floor(Math.random() * 10) +1;
     rightText.innerText = num2;
 
     const isHigher = rightText.innerText > leftText.innerText
