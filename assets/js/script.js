@@ -102,6 +102,3 @@ downArrow.addEventListener("click", function(){
 
 // function increaseDefeat()
 
-function giveCard(rightCard) {
-    document.getElementsByClassName("game-card-right").textContent = computercard;
-}
