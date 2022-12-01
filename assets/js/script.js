@@ -7,20 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     document.querySelector(".above").disabled = true;
     document.querySelector(".below").disabled = true;
+    
 
-    // for (let button of buttons) {
-    //     button.addEventListener("click", function() {
-    //         if (this.getAttribute("data-type") === "start") {
-    //             alert("You clicked Start!");
-    //         } else {
-    //             let gameType = this.getAttribute("data-type");
-    //             runGame(gameType);
-    //         }
-    //     });
-    // }
+});
 
-   // runGame("card-game");
-
+document.getElementById("start").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        startGame();
+    }
 });
 
 /**
