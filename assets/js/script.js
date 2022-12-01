@@ -81,6 +81,7 @@ downArrow.addEventListener("click", function(){
         
         if(userSelection === "up" && isHigher){
             console.log("you won!")
+            increaseWictory();
         }else{
             console.log("you lost!")  
         }
@@ -88,6 +89,7 @@ downArrow.addEventListener("click", function(){
     }else(userSelection === "down");
         if(userSelection === "down" && isLower){
             console.log("you won!")
+            increaseWictory();
         }else{
             console.log("you lost!")
         }
@@ -95,10 +97,8 @@ downArrow.addEventListener("click", function(){
     }
 
 
-
-// function checkCorrectAnswer()
-
 // function increaseWictory()
 
 // function increaseDefeat()
+
 

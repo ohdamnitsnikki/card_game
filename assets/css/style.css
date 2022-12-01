@@ -108,11 +108,11 @@ header>h1{
     font-size: 4vh;
 }
 
-.right {
+#right {
     color:green;
 }
 
-.wrong {
+#wrong {
     color:red;
 }
 
