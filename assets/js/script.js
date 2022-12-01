@@ -1,5 +1,6 @@
 // wait for the DOM to finish loading before starting the game 
 // Add eventListeners to the buttons
+// Disable arrows before start is clicked
 
 const startBtn = document.getElementById("start")
 
@@ -13,17 +14,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("start").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
+        console.log(event.key)
         startGame();
     }
 });
 
-/**
- * The game loop that starts after the script is loaded
- * and after the user pressed one of the buttons
- */
-//add eventlistener to btn click
-//get random number btw 1-14
-//insert in DOM
+//Add query Selector for all elements in use for the game
 
 startBtn.addEventListener("click", startGame)
 
@@ -33,12 +29,13 @@ let rightText = document.querySelector(".game-card-right")
 let upArrow = document.querySelector(".above")
 let downArrow = document.querySelector(".below")
 
+//Function when the game starts that generates a whole number between 1-14 on the left card
+//Enable start button until one of the arrows is pressed
 
 function startGame(gameType) {
     let num1 = Math.floor(Math.random() * 14) +1;
    leftText.innerText = num1
    document.querySelector(".start").disabled = true;
-    //creates two whole random numbers between 1-14
     console.log(leftText, "num")
     document.querySelector(".above").disabled = false;
     document.querySelector(".below").disabled = false;
@@ -46,6 +43,7 @@ function startGame(gameType) {
 
 }
 
+//Add event Listener for up arrow and disable arrows until start is clicked on
 
 upArrow.addEventListener("click", function(){
     checkAnswer("up")
@@ -54,6 +52,8 @@ upArrow.addEventListener("click", function(){
     document.querySelector(".below").disabled = true;
 })
 
+//Add event Listener for down arrow and disable arrows until start is clicked on
+
 downArrow.addEventListener("click", function(){
     checkAnswer("down")
     document.querySelector(".start").disabled = false;
@@ -61,7 +61,8 @@ downArrow.addEventListener("click", function(){
     document.querySelector(".above").disabled = true;
 })
 
-
+// Add a random number for right card between 1-14
+// Const to calculate if users guess is correct or not
 
  function checkAnswer(userSelection){
     console.log(userSelection, "user selection")
@@ -92,10 +93,13 @@ downArrow.addEventListener("click", function(){
 
     }
 
+// Add score to the board if user is right
 function increaseWictory(){
     let oldScore = parseInt(document.getElementById("right").innerText);
     document.getElementById("right").innerText = ++oldScore;
 }
+
+// Add score to the board if user is wrong
 
 function increaseDefeat(){
     let oldScore = parseInt(document.getElementById("wrong").innerText);
