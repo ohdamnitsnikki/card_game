@@ -83,7 +83,8 @@ downArrow.addEventListener("click", function(){
             console.log("you won!")
             increaseWictory();
         }else{
-            console.log("you lost!")  
+            console.log("you lost!")
+            increaseDefeat()  
         }
         
     }else(userSelection === "down");
@@ -92,13 +93,20 @@ downArrow.addEventListener("click", function(){
             increaseWictory();
         }else{
             console.log("you lost!")
+            increaseDefeat()
         }
 
     }
 
+function increaseWictory(){
+    let oldScore = parseInt(document.getElementById("right").innerText);
+    document.getElementById("right").innerText = ++oldScore;
+}
 
-// function increaseWictory()
+function increaseDefeat(){
+    let oldScore = parseInt(document.getElementById("wrong").innerText);
+    document.getElementById("wrong").innerText = ++oldScore;
 
-// function increaseDefeat()
+}
 
 
