@@ -69,27 +69,26 @@ downArrow.addEventListener("click", function(){
     let num2 = Math.floor(Math.random() * 14) +1;
     rightText.innerText = num2;
 
-    const isHigher = rightText.innerText > leftText.innerText
-    const isLower = rightText.innerText < leftText.innerText
 
     if(userSelection === "up") {
         
-        if(userSelection === "up" && isHigher){
+        if(parseInt(rightText.innerText) > parseInt(leftText.innerText)){
             console.log("you won!")
-            increaseWictory();
+            increaseWictory()
         }else{
             console.log("you lost!")
             increaseDefeat()  
         }
         
-    }else(userSelection === "down");
-        if(userSelection === "down" && isLower){
+    }else {
+        if(parseInt(rightText.innerText) < parseInt(leftText.innerText)){
             console.log("you won!")
-            increaseWictory();
+            increaseWictory()
         }else{
             console.log("you lost!")
             increaseDefeat()
         }
+    }
 
     }
 
@@ -106,5 +105,4 @@ function increaseDefeat(){
     document.getElementById("wrong").innerText = ++oldScore;
 
 }
-
 
