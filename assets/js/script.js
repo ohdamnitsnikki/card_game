@@ -62,7 +62,7 @@ downArrow.addEventListener("click", function(){
 })
 
 // Add a random number for right card between 1-14
-// Const to calculate if users guess is correct or not
+// Function to calculate if users guess is correct or not
 
  function checkAnswer(userSelection){
     console.log(userSelection, "user selection")
@@ -74,7 +74,7 @@ downArrow.addEventListener("click", function(){
         
         if(parseInt(rightText.innerText) > parseInt(leftText.innerText)){
             console.log("you won!")
-            increaseWictory()
+            increaseVictory()
         }else{
             console.log("you lost!")
             increaseDefeat()  
@@ -83,7 +83,7 @@ downArrow.addEventListener("click", function(){
     }else {
         if(parseInt(rightText.innerText) < parseInt(leftText.innerText)){
             console.log("you won!")
-            increaseWictory()
+            increaseVictory()
         }else{
             console.log("you lost!")
             increaseDefeat()
@@ -93,7 +93,7 @@ downArrow.addEventListener("click", function(){
     }
 
 // Add score to the board if user is right
-function increaseWictory(){
+function increaseVictory(){
     let oldScore = parseInt(document.getElementById("right").innerText);
     document.getElementById("right").innerText = ++oldScore;
 }
