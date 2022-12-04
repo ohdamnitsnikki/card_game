@@ -121,12 +121,13 @@ header>h1{
     .game-card-left, .game-card-right {
         font-size: 14vh;
     }
-    .game-content {
-        font-size: 14vh;
-    }
 
     .game-field {
         margin-left: 10%;
     margin-right: 10%;
+    }
+
+    header {
+        height: 25vh;
     }
 }
