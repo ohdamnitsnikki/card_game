@@ -130,4 +130,10 @@ header>h1{
     header {
         height: 25vh;
     }
+
+    .game-content {
+        margin: 0px 11% 0px 11%;
+    }
+    .interact {
+        margin-top: 5%;
 }
