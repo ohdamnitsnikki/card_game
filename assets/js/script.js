@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 var div = document.getElementById("start-game");
 
 // Execute a function when the user presses a key on the keyboard
-div.addEventListener("keypress", function(event) {
+div.addEventListener("click", function(event) {
   // If the user presses the "Enter" key on the keyboard
   if (event.key === "Enter")
   
