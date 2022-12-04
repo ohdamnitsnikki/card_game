@@ -12,6 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+var div = document.getElementById("start-game");
+
+// Execute a function when the user presses a key on the keyboard
+div.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter")
+  
+});
+
 document.getElementById("start").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         console.log(event.key)
@@ -32,7 +41,7 @@ let downArrow = document.querySelector(".below")
 //Function when the game starts that generates a whole number between 1-14 on the left card
 //Enable start button until one of the arrows is pressed
 
-function startGame(gameType) {
+function startGame() {
     let num1 = Math.floor(Math.random() * 14) +1;
    leftText.innerText = num1
    document.querySelector(".start").disabled = true;

@@ -63,14 +63,14 @@ header>h1{
 /*game cards*/
 
 .game-card-left, .game-card-right {
-    height: 30vh;
+    height: fit-content;
     background: url(../images/cards-background.jpg) no-repeat center center;
     width: 50vh;
     margin-top: 3%;
     font-size: 18vh;
     border-radius: 8%;
     border: 1px solid black;
-    padding-top: 8%;
+    padding: 0px 10px 0px 10px;
 }
 
 /*game interaction buttons*/
