@@ -42,8 +42,9 @@ Live link here - [Card Game](https://ohdamnitsnikki.github.io/card_game/)
 
 1. The template is taken from [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
 2. For help during these projects I've used my mentor and the love math project.
-3. The box shadow taken from [Get css scan](https://getcssscan.com/css-box-shadow-examples)#19
+3. The box shadow is taken from [Get css scan](https://getcssscan.com/css-box-shadow-examples)#19
 4. To understand how to style img in readme file I've used code from [SeanCDavid](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/)
+5. The code to being able to use enter, down and up buttons in the game is taken from [W3School](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
 
 ### Media
 
