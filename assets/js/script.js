@@ -25,8 +25,7 @@ body.addEventListener("keypress", function(event) {
   }
 });
 
-document.getElementById("up")
-document.addEventListener("keypress", ) 
+
 
 
 
@@ -46,6 +45,7 @@ let downArrow = document.querySelector(".below")
 function startGame() {
     let num1 = Math.floor(Math.random() * 14) +1;
    leftText.innerText = num1
+   let num2 = rightText.innerText = 0;
    document.querySelector(".start").disabled = true;
     console.log(leftText, "num")
     document.querySelector(".above").disabled = false;
