@@ -12,21 +12,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-var div = document.getElementById("start-game");
+var body = document.querySelector("body");
 
 // Execute a function when the user presses a key on the keyboard
-div.addEventListener("click", function(event) {
+body.addEventListener("keypress", function(event) {
   // If the user presses the "Enter" key on the keyboard
-  if (event.key === "Enter")
-  
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("start").click();
+  }
 });
 
-document.getElementById("start").addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-        console.log(event.key)
-        startGame();
-    }
-});
+
 
 //Add query Selector for all elements in use for the game
 
