@@ -41,7 +41,7 @@ header>h1{
 .game-content {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 25vh 0px 25vh;
+    margin: 0px 25% 0px 25%;
 }
 
 /*rules*/
