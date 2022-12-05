@@ -26,7 +26,7 @@ body.addEventListener("keypress", function(event) {
 });
 
 
-
+let num1,disable=true;
 
 
 //Add query Selector for all elements in use for the game
