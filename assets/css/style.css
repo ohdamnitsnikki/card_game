@@ -41,7 +41,7 @@ header>h1{
 .game-content {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 16% 0px 16%;
+    margin: 0px 19% 0px 19%;
 }
 
 /*rules*/
@@ -121,7 +121,16 @@ header>h1{
     color:red;
 }
 
-/*Media queris for screen with max-width 700px*/
+/*Media query for screen with max-width 870px*/
+
+@media screen and (max-width: 870px) {
+    .game-content {
+        margin: 0px 0px 0px 0px;
+    }
+    
+}
+
+/*Media query for screen with max-width 700px*/
 @media screen and (max-width: 700px) {
 
     .game-field {
