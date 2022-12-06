@@ -46,7 +46,7 @@ header>h1{
     display: flex;
     justify-content: space-evenly;
     margin: 0px 19% 0px 19%;
-    padding:20px;
+    padding-top:20px;
 }
 
 /*rules*/
@@ -70,7 +70,7 @@ header>h1{
 .game-card-left, .game-card-right {
     height: 1.5em;
     background: url(../images/cards-background.jpg) no-repeat center center;
-    width: 19vh;
+    width: 100px;
     margin-top: 3%;
     font-size: 16vh;
     border-radius: 8%;
@@ -126,11 +126,16 @@ header>h1{
     color:red;
 }
 
-/*Media query for screen with max-width 870px*/
+/*Media query for screen with max-width 900px*/
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
     .game-content {
-        margin: 0px 0px 0px 0px;
+        margin: 0px 12% 0px 12%;
+        padding-top: 20px;
+    }
+
+    .game-card-left, .game-card-right{
+        width:100px;
     }
     
 }
@@ -146,8 +151,6 @@ header>h1{
     header {
         height: 33vh;
     }
-
-    
     .interact {
         margin-top: 5%;
 }
