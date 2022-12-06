@@ -13,16 +13,22 @@ The rules are simple:
   title="The desktop"
   style="display: block; margin: 0 auto; max-width: 500px">
 
+  <img
+  src="assets/images/phoneview.PNG"
+  alt="The site in phoneview" 
+  title="The site in phoneview"
+  style="display: block; margin: 0 auto; max-width: 300px">
+
 ## Features
 
 ### The Heading
 The heading is very simple to not draw the attention from the game, it only contain the games name to move the attention futher down to the game.
 
 <img
-  src="assets/images/header.PNG"
+  src="assets/images/heading.PNG"
   alt="The header" 
   title="The header"
-  style="display: block; margin: 0 auto; max-width: 500px">
+  style="display: block; margin: 0 auto; max-width: 200px">
 
 ### The Gamefield
 The gamefield displays a bow where all the user needs to know and do are inculded.
@@ -38,7 +44,7 @@ The rules informs the player of how the game is built.
 
 <img
   src="assets/images/rules.PNG"
-  alt="The ruels" 
+  alt="The rules" 
   title="The rules"
   style="display: block; margin: 0 auto; max-width: 500px">
 
@@ -49,7 +55,7 @@ The two cards will show the users number to the left and the computers number to
   src="assets/images/gamecard.PNG"
   alt="The gamecard" 
   title="The gamecard"
-  style="display: block; margin: 0 auto; max-width: 500px">
+  style="display: block; margin: 0 auto; max-width: 100px">
 
 #### Buttons
 The three buttons are for the user guess, higher or lower and to start the game.
@@ -67,7 +73,7 @@ The scoreboard shows the user how many victories and/or defeats they have agains
   src="assets/images/score.PNG"
   alt="The scoreboard" 
   title="The scoreboard"
-  style="display: block; margin: 0 auto; max-width: 500px">
+  style="display: block; margin: 0 auto; max-width: 200px">
 
 ## Deployment
 Card game was deployed through github pages.
