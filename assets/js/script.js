@@ -5,8 +5,10 @@
 window.addEventListener('keydown', function (event) {
     const startBtn = document.getElementById("start")
 
+// Enable key up and key down   
+
     const key = event.key; 
-   
+// Disable above and below btn when clicked, enable start btn again   
     if (key === "ArrowUp" && startBtn.disabled) {
         checkAnswer("up")
         document.querySelector(".above").disabled = true;
@@ -102,7 +104,6 @@ downArrow.addEventListener("click", function () {
 // Function to calculate if users guess is correct or not
 
 function checkAnswer(userSelection) {
-    console.log(userSelection, "user selection")
     let num2 = Math.floor(Math.random() * 14) + 1;
     rightText.innerText = num2;
 
@@ -110,19 +111,15 @@ function checkAnswer(userSelection) {
     if (userSelection === "up") {
 
         if (parseInt(rightText.innerText) > parseInt(leftText.innerText)) {
-            console.log("you won!")
             increaseVictory()
         } else {
-            console.log("you lost!")
             increaseDefeat()
         }
 
     } else {
         if (parseInt(rightText.innerText) < parseInt(leftText.innerText)) {
-            console.log("you won!")
             increaseVictory()
         } else {
-            console.log("you lost!")
             increaseDefeat()
         }
     }
