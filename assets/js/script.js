@@ -107,7 +107,7 @@ function checkAnswer(userSelection) {
     let num2 = Math.floor(Math.random() * 14) + 1;
     rightText.innerText = num2;
 
-
+// If user choose up
     if (userSelection === "up") {
 
         if (parseInt(rightText.innerText) > parseInt(leftText.innerText)) {
@@ -115,7 +115,7 @@ function checkAnswer(userSelection) {
         } else {
             increaseDefeat()
         }
-
+// If user doesn't choose up
     } else {
         if (parseInt(rightText.innerText) < parseInt(leftText.innerText)) {
             increaseVictory()
