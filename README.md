@@ -75,8 +75,31 @@ The scoreboard shows the user how many victories and/or defeats they have agains
   title="The scoreboard"
   style="display: block; margin: 0 auto; max-width: 200px">
 
-## Deployment
-Card game was deployed through github pages.
+  ### Testing 
+  * This page is tested on androids and iphones with the style it's informed to, it works in firefox, chrome but not in explorer. 
+  * Page changes size on elemtents to receive good UX no mather the screen.
+
+  #### Validator Testing
+
+  This game is tested in both [W3C-validator](https://validator.w3.org/) and [W3C-CSS-validaor](http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fohdamnitsnikki.github.io%2Fnew-parent%2F&usermedium=all&vextwarning=&warning=1)
+  <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+    </a>
+</p>
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!"s>
+    </a>
+</p> 
+
+#### Deployment
+The card game was deployed through github pages.
 * In github repository go to settings.
 * Go to pages and use the branch menu to change to main.
 Refresh teh page and a link to the final project is deployed.

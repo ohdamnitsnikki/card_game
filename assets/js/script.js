@@ -59,9 +59,9 @@ upArrow.addEventListener("click", function(){
     document.querySelector(".below").disabled = true;
 
 })
-
+var body = document.querySelector("body");
 body.addEventListener("keypress", function(event){
-    if(event.key === "Up") {
+    if(event.key === 38) {
         event.preventDefault();
         document.getElementById("above").click();
     }
@@ -69,12 +69,21 @@ body.addEventListener("keypress", function(event){
 
 document.getElementById("above")
 addEventListener("keypress", function(event) {
-    if(event.key === "Up") {
+    if(event.key === 38) {
         event.preventDefault();
         document.getElementById("above").click();
     }
 }
 );
+
+var body = document.querySelector("body");
+body.addEventListener("onkeypress", function(event){
+    if(event.key ===  38) {
+        event.preventDefault();
+        document.getElementById("above").click();
+    }
+});
+
 
 //Add event Listener for down arrow and disable arrows until start is clicked on
 
