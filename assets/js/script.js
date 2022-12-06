@@ -12,9 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+// Target body to enable event listeners
+
 var body = document.querySelector("body");
 
 // Execute a function when the user presses a key on the keyboard
+
 body.addEventListener("keypress", function(event) {
     // If the user presses the "Enter" key on the keyboard
     if (event.key === "Enter") {
@@ -28,38 +31,13 @@ body.addEventListener("keypress", function(event) {
         // Trigger the button element with a click
         document.getElementById("above").click();
     }
-    if(event.key === "a"){
+    if(event.key === "a") {
         event.preventDefault();
         // Trigger the button element with a click
         document.getElementById("below").click(); 
     }
     
   });
-
-  var body = document.querySelector("body");
-body.addEventListener("keypress", function(event){
-    if(event.key === 38) {
-        event.preventDefault();
-        document.getElementById("above").click();
-    }
-});
-
-document.getElementById("above")
-addEventListener("keypress", function(event) {
-    if(event.key === 38) {
-        event.preventDefault();
-        document.getElementById("above").click();
-    }
-}
-);
-
-var body = document.querySelector("body");
-body.addEventListener("onkeypress", function(event){
-    if(event.key ===  38) {
-        event.preventDefault();
-        document.getElementById("above").click();
-    }
-});
 
 //Add query Selector for all elements in use for the game
 
