@@ -78,6 +78,10 @@ The scoreboard shows the user how many victories and/or defeats they have agains
   ### Testing 
   * This page is tested on androids and iphones with the style it's informed to, it works in firefox, chrome but not in explorer. 
   * Page changes size on elemtents to receive good UX no mather the screen.
+  * Page is tested to see if all function is working.
+  * Start button is the only button enable when entering the page.
+  * Start button disabled after being used to make the user make a game guess. 
+  * Start button is enabled again after users guess and a score is added to either victory or defeat depending on if the user or the computer won. 
 
   #### Validator Testing
 
