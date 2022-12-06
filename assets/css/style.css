@@ -38,8 +38,9 @@ header>h1{
     background-color: rgb(217, 217, 217);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
-    margin-left: 24%;
-    margin-right: 24%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px 10px 0px 10px;
 }
 
 .game-content {
@@ -150,6 +151,9 @@ header>h1{
     color:red;
 }
 
+hr{
+    margin:0;
+}
 /*Media query for screen with max-width 900px*/
 
 @media screen and (max-width: 900px) {
