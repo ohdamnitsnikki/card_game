@@ -60,12 +60,21 @@ upArrow.addEventListener("click", function(){
 
 })
 
-downArrow.addEventListener("keypress", function(event){
-    if(event.key === "Down") {
+body.addEventListener("keypress", function(event){
+    if(event.key === "Up") {
         event.preventDefault();
         document.getElementById("above").click();
     }
 });
+
+document.getElementById("above")
+addEventListener("keypress", function(event) {
+    if(event.key === "Up") {
+        event.preventDefault();
+        document.getElementById("above").click();
+    }
+}
+);
 
 //Add event Listener for down arrow and disable arrows until start is clicked on
 
