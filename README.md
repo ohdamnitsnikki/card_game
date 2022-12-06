@@ -93,12 +93,7 @@ Live link here - [Card Game](https://ohdamnitsnikki.github.io/card_game/)
 3. The box shadow is taken from [Get css scan](https://getcssscan.com/css-box-shadow-examples)#19
 4. To understand how to style img in readme file I've used code from [SeanCDavid](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/)
 5. The code to being able to use enter, down and up buttons in the game is taken from [W3School](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
+6. Styling for the header is inspired by [Log Rocket](https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/)
 
 ### Media
-
-
-
-
-
-
-
+The image for the game cards is taken from [Team renewable artic Finland](https://teamrenewablearctic.fi/2021/04/23/new-climate-targets-announced/)
