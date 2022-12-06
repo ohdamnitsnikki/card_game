@@ -16,14 +16,25 @@ var body = document.querySelector("body");
 
 // Execute a function when the user presses a key on the keyboard
 body.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
-  if (event.key === "Enter") {
-    // Cancel the default action, if needed
-    event.preventDefault();
-    // Trigger the button element with a click
-    document.getElementById("start").click();
-  }
-});
+    // If the user presses the "Enter" key on the keyboard
+    if (event.key === "Enter") {
+      // Cancel the default action, if needed
+      event.preventDefault();
+      // Trigger the button element with a click
+      document.getElementById("start").click();
+    }
+    if(event.key === 38) {
+        event.preventDefault();
+        // Trigger the button element with a click
+        document.getElementById("above").click();
+    }
+    if(event.key === 40){
+        event.preventDefault();
+        // Trigger the button element with a click
+        document.getElementById("below").click(); 
+    }
+    
+  });
 
 //Add query Selector for all elements in use for the game
 
@@ -43,7 +54,6 @@ function startGame() {
    leftText.innerText = num1
    let num2 = rightText.innerText = 0;
    document.querySelector(".start").disabled = true;
-    console.log(leftText, "num")
     document.querySelector(".above").disabled = false;
     document.querySelector(".below").disabled = false;
     
