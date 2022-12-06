@@ -43,16 +43,6 @@ body.addEventListener("keypress", function (event) {
         // Trigger the button element with a click
         document.getElementById("start").click();
     }
-    if (event.key === "w") {
-        event.preventDefault();
-        // Trigger the button element with a click
-        document.getElementById("above").click();
-    }
-    if (event.key === "a") {
-        event.preventDefault();
-        // Trigger the button element with a click
-        document.getElementById("below").click();
-    }
 
 });
 
