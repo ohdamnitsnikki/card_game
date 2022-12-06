@@ -165,6 +165,13 @@ header>h1{
         font-size: 14vh
     }
     
+    .score-board {
+        padding: 20px 137px 0px 137px;
+    }
+
+    hr{
+        margin:10%;
+    }
 }
 
 /*Media query for screen with max-width 700px*/
@@ -197,6 +204,11 @@ header>h1{
     .game-content{
         margin: 0px;
         padding: 1px 3px 1px 3px;
+    }
+
+    .score-board {
+        font-size: 3vh;
+        padding: 20px 81px 0px 81px;
     }
     
 }
