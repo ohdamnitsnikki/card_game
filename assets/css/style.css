@@ -23,9 +23,12 @@ header{
 }
 
 header>h1{
-    font-size: 8vh;
-    font-style: oblique;
-    align-self: auto;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #575555, #7e8a89);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 /*gamefield*/
@@ -139,7 +142,7 @@ header>h1{
     }
 
     header {
-        height: 25vh;
+        height: 33vh;
     }
 
     

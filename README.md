@@ -7,25 +7,67 @@ The rules are simple:
 * The user guess using the arrow buttons if the next card will be higher or lower than the one laying.
 * Either the user or the computer wins and scores are calculated.
 
+<img
+  src="assets/images/desktop.PNG"
+  alt="The desktop" 
+  title="The desktop"
+  style="display: block; margin: 0 auto; max-width: 500px">
+
 ## Features
 
 ### The Heading
 The heading is very simple to not draw the attention from the game, it only contain the games name to move the attention futher down to the game.
 
+<img
+  src="assets/images/header.PNG"
+  alt="The header" 
+  title="The header"
+  style="display: block; margin: 0 auto; max-width: 500px">
+
 ### The Gamefield
 The gamefield displays a bow where all the user needs to know and do are inculded.
+
+<img
+  src="assets/images/gamefield.PNG"
+  alt="The gamefield" 
+  title="The gamefield"
+  style="display: block; margin: 0 auto; max-width: 500px">
 
 #### Rules
 The rules informs the player of how the game is built.
 
+<img
+  src="assets/images/rules.PNG"
+  alt="The ruels" 
+  title="The rules"
+  style="display: block; margin: 0 auto; max-width: 500px">
+
 #### Cards
 The two cards will show the users number to the left and the computers number to the right.
+
+<img
+  src="assets/images/gamecard.PNG"
+  alt="The gamecard" 
+  title="The gamecard"
+  style="display: block; margin: 0 auto; max-width: 500px">
 
 #### Buttons
 The three buttons are for the user guess, higher or lower and to start the game.
 
+<img
+  src="assets/images/interaction.PNG"
+  alt="The game buttons" 
+  title="The game buttons"
+  style="display: block; margin: 0 auto; max-width: 500px">
+
 #### Scoreboard
 The scoreboard shows the user how many victories and/or defeats they have against the computer.
+
+<img
+  src="assets/images/score.PNG"
+  alt="The scoreboard" 
+  title="The scoreboard"
+  style="display: block; margin: 0 auto; max-width: 500px">
 
 ## Deployment
 Card game was deployed through github pages.
