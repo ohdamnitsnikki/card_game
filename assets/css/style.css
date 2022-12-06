@@ -45,7 +45,7 @@ header>h1{
 .game-content {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 19% 0px 19%;
+    margin: 0px 10% 0px 10%;
     padding-top:20px;
 }
 
@@ -181,4 +181,22 @@ header>h1{
     .interact {
         margin-top: 5%;
 }
+}
+
+/*Media query for screen with max-width 530px*/
+@media screen and (max-width: 530px) {
+
+    .game-card-left, .game-card-right{
+    width: 104px;
+    height: 149px;
+    padding: 24px 10px 0px 10px;
+    font-size: 10vh;    
+
+    }
+
+    .game-content{
+        margin: 0px;
+        padding: 1px 3px 1px 3px;
+    }
+    
 }
