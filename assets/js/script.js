@@ -25,10 +25,6 @@ body.addEventListener("keypress", function(event) {
   }
 });
 
-
-let num1,disable=true;
-
-
 //Add query Selector for all elements in use for the game
 
 startBtn.addEventListener("click", startGame)
@@ -63,6 +59,13 @@ upArrow.addEventListener("click", function(){
     document.querySelector(".below").disabled = true;
 
 })
+
+downArrow.addEventListener("keypress", function(event){
+    if(event.key === "Down") {
+        event.preventDefault();
+        document.getElementById("above").click();
+    }
+});
 
 //Add event Listener for down arrow and disable arrows until start is clicked on
 
