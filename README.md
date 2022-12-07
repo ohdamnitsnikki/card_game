@@ -78,10 +78,12 @@ The scoreboard shows the user how many victories and/or defeats they have agains
   ### Testing 
   * This page is tested on androids and iphones with the style it's informed to, it works in firefox, chrome but not in explorer. 
   * Page changes size on elemtents to receive good UX no mather the screen.
+  * The secons P element in rules that informs the user that they can play with keys aswell is hidden on smaller screens since the users keyboard isn't shown while playing on a smartphone.
   * Page is tested to see if all function is working.
   * Start button is the only button enable when entering the page.
-  * Start button disabled after being used to make the user make a game guess. 
+  * Start button disables after being used to make the user make a game guess, the up and down buttons are insead enabled at this point. 
   * Start button is enabled again after users guess and a score is added to either victory or defeat depending on if the user or the computer won. 
+  * Up and down buttons are again disabled at this point.
 
   In the begining of my testing the scores wheren't given to the right winner. I hadn't target the num1 and num2 in parseInt which wasn't making in the look of it but when looked in the conslole js changed place of num1 and num2 when calculating the score.
 
@@ -90,7 +92,7 @@ The scoreboard shows the user how many victories and/or defeats they have agains
   #### Validator Testing
 
   This game is tested in [W3C-validator](https://validator.w3.org/), [W3C-CSS-validaor](http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fohdamnitsnikki.github.io%2Fnew-parent%2F&usermedium=all&vextwarning=&warning=1) and [JS hint](https://jshint.com/)
-  There where no errors shown.
+  There where no errors found. All though on line 65 JS hint says that num2 is a unused variable. Line 65 makes the computers card go back to a 0 when user press start again. 
   <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -115,7 +117,7 @@ The JS file has following metrics:
 
 * Largest function has 11 statements in it, while the median is 4.
 
-* The most complex function has a cyclomatic complexity value of 5 while the median is 1.
+* The most complex function has a cyclomatic complexity value of 5 while the median is 1.  
 
 
 #### Deployment
