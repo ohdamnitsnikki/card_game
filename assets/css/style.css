@@ -80,7 +80,7 @@ header>h1{
     border-radius: 8%;
     border: 1px solid black;
     padding: 15px 10px 0px 10px;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .player {
@@ -94,7 +94,7 @@ header>h1{
   background-image: linear-gradient(to bottom, #fff, #f8eedb);
   border: 0 solid #e5e7eb;
   border-radius: .5rem;
-  color: #2a2e9a;
+  color: #53b628;
   font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 100%;
   font-weight: 700;
@@ -113,6 +113,8 @@ header>h1{
   box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }
 
+.start:disabled {
+    color: rgb(192 194 185);}
 
 .interact {
     margin-top: 16%;
