@@ -89,7 +89,8 @@ The scoreboard shows the user how many victories and/or defeats they have agains
 
   #### Validator Testing
 
-  This game is tested in both [W3C-validator](https://validator.w3.org/) and [W3C-CSS-validaor](http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fohdamnitsnikki.github.io%2Fnew-parent%2F&usermedium=all&vextwarning=&warning=1)
+  This game is tested in [W3C-validator](https://validator.w3.org/), [W3C-CSS-validaor](http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fohdamnitsnikki.github.io%2Fnew-parent%2F&usermedium=all&vextwarning=&warning=1) and [JS hint](https://jshint.com/)
+  There where no errors shown.
   <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -105,6 +106,17 @@ The scoreboard shows the user how many victories and/or defeats they have agains
             alt="Valid CSS!"s>
     </a>
 </p> 
+
+The JS file has following metrics:
+
+* There are 9 functions in this file.
+
+* Function with the largest signature take 1 arguments, while the median is 0.
+
+* Largest function has 11 statements in it, while the median is 4.
+
+* The most complex function has a cyclomatic complexity value of 5 while the median is 1.
+
 
 #### Deployment
 The card game was deployed through github pages.
