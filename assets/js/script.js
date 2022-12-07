@@ -3,26 +3,26 @@
 // Disable arrows before start is clicked
 
 window.addEventListener('keydown', function (event) {
-    const startBtn = document.getElementById("start")
+    const startBtn = document.getElementById("start");
 
 // Enable key up and key down   
 
     const key = event.key; 
 // Disable above and below btn when clicked, enable start btn again   
     if (key === "ArrowUp" && startBtn.disabled) {
-        checkAnswer("up")
+        checkAnswer("up");
         document.querySelector(".above").disabled = true;
         document.querySelector(".below").disabled = true;
         document.querySelector(".start").disabled = false;
     } else if (key === "ArrowDown" && startBtn.disabled) {
-        checkAnswer("down")
+        checkAnswer("down");
         document.querySelector(".above").disabled = true;
         document.querySelector(".below").disabled = true;
         document.querySelector(".start").disabled = false;
     }
 });
 
-const startBtn = document.getElementById("start")
+const startBtn = document.getElementById("start");
 
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".above").disabled = true;
@@ -48,20 +48,20 @@ body.addEventListener("keypress", function (event) {
 
 //Add query Selector for all elements in use for the game
 
-startBtn.addEventListener("click", startGame)
+startBtn.addEventListener("click", startGame);
 
 
-let leftText = document.querySelector(".game-card-left")
-let rightText = document.querySelector(".game-card-right")
-let upArrow = document.querySelector(".above")
-let downArrow = document.querySelector(".below")
+let leftText = document.querySelector(".game-card-left");
+let rightText = document.querySelector(".game-card-right");
+let upArrow = document.querySelector(".above");
+let downArrow = document.querySelector(".below");
 
 //Function when the game starts that generates a whole number between 1-14 on the left card
 //Enable start button until one of the arrows is pressed
 
 function startGame() {
     let num1 = Math.floor(Math.random() * 14) + 1;
-    leftText.innerText = num1
+    leftText.innerText = num1;
     let num2 = rightText.innerText = 0;
     document.querySelector(".start").disabled = true;
     document.querySelector(".above").disabled = false;
@@ -73,22 +73,22 @@ function startGame() {
 //Add event Listener for up arrow and disable arrows until start is clicked on
 
 upArrow.addEventListener("click", function () {
-    checkAnswer("up")
+    checkAnswer("up");
     document.querySelector(".start").disabled = false;
     document.querySelector(".above").disabled = true;
     document.querySelector(".below").disabled = true;
 
-})
+});
 
 
 //Add event Listener for down arrow and disable arrows until start is clicked on
 
 downArrow.addEventListener("click", function () {
-    checkAnswer("down")
+    checkAnswer("down");
     document.querySelector(".start").disabled = false;
     document.querySelector(".below").disabled = true;
     document.querySelector(".above").disabled = true;
-})
+});
 
 // Add a random number for right card between 1-14
 // Function to calculate if users guess is correct or not
@@ -101,16 +101,16 @@ function checkAnswer(userSelection) {
     if (userSelection === "up") {
 
         if (parseInt(rightText.innerText) > parseInt(leftText.innerText)) {
-            increaseVictory()
+            increaseVictory();
         } else {
-            increaseDefeat()
+            increaseDefeat();
         }
 // If user doesn't choose up
     } else {
         if (parseInt(rightText.innerText) < parseInt(leftText.innerText)) {
-            increaseVictory()
+            increaseVictory();
         } else {
-            increaseDefeat()
+            increaseDefeat();
         }
     }
 

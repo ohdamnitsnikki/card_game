@@ -69,8 +69,9 @@ header>h1{
     font-size: large;
 }
 
-.p{
-display:contents;
+.hide {
+    font-size: 13px;
+
 }
 
 /*game cards*/
