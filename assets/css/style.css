@@ -177,6 +177,10 @@ hr{
         font-size: 14vh
     }
     
+    .start-game {
+        font-size: 14px;
+        
+    }
     .score-board {
         padding: 20px 137px 0px 137px;
     }
