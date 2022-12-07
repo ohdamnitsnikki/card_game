@@ -166,6 +166,30 @@ hr{
     margin:0;
     height: 76px;
 }
+
+/*Footer and social links*/
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: #D3D3D3;
+}
+
+footer>ul {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    padding: 25px 20px 15px 20px;
+
+}
+
+.fa-brands, .fab {
+    color: black;
+}
 /*Media query for screen with max-width 900px*/
 
 @media screen and (max-width: 900px) {
