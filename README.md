@@ -1,10 +1,10 @@
 # Lower or Higher!
 
-Lower or higher is a card game made for people who like to waste time trying to win against the computer. People tend to have different ways to relax after for example a busy day at work. There are people that feel that games like this are de-streesing and that's the people this card game is trying to target.
+Lower or higher is a card game made for people who like to waste time trying to win against the computer. People tend to have different ways to relax after for example a busy day at work. There are people that feel that games like this are de-stressing and that's the target audience for this card game.
 
 The rules are simple:
-*  The computer hands you a card when you press start between 1-14.
-* The user guess using the arrow buttons if the next card will be higher or lower than the one laying.
+* The computer hands you a card when you press start between 1-14.
+* The user guess using the arrow buttons if the next card will be higher or lower than the one the computer chose.
 * Either the user or the computer wins and scores are calculated.
 
 <img
@@ -22,7 +22,7 @@ The rules are simple:
 ## Features
 
 ### The Heading
-The heading is very simple to not draw the attention from the game, it only contain the games name to move the attention futher down to the game.
+The heading is very simple to not draw the attention from the game, it only contains the game name to move the attention further down to the game.
 
 <img
   src="assets/images/header.PNG"
@@ -58,7 +58,7 @@ The two cards will show the users number to the left and the computers number to
   style="display: block; margin: 0 auto; max-width: 350px">
 
 #### Buttons
-The three buttons are for the user guess, higher or lower and to start the game.
+The three buttons are for the users guesses, higher or lower and to start the game.
 
 <img
   src="assets/images/interact.PNG"
@@ -87,7 +87,7 @@ The footer has social links to instagram and facebook.
   ### Testing 
   * This page is tested on androids and iphones with the style it's informed to, it works in firefox, chrome but not in explorer. 
   * Page changes size on elemtents to receive good UX no mather the screen.
-  * The secons P element in rules that informs the user that they can play with keys aswell is hidden on smaller screens since the users keyboard isn't shown while playing on a smartphone.
+  * The second P element in rules that informs the user that they can play with keys aswell is hidden on smaller screens since the users keyboard isn't shown while playing on a smartphone.
   * Page is tested to see if all function is working.
   * Start button is the only button enable when entering the page.
   * Start button disables after being used to make the user make a game guess, the up and down buttons are insead enabled at this point. 
@@ -102,7 +102,7 @@ The footer has social links to instagram and facebook.
   #### Validator Testing
 
   This game is tested in [W3C-validator](https://validator.w3.org/), [W3C-CSS-validaor](http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fohdamnitsnikki.github.io%2Fnew-parent%2F&usermedium=all&vextwarning=&warning=1) and [JS hint](https://jshint.com/)
-  There where no errors found. All though on line 65 JS hint says that num2 is a unused variable. Line 65 makes the computers card go back to a 0 when user press start again. 
+  There where no errors found. Although on line 65 JS hint says that num2 is a unused variable. Line 65 makes the computers card go back to a 0 when user press start again. 
   <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
