@@ -126,6 +126,7 @@ Live link here - [Card Game](https://ohdamnitsnikki.github.io/card_game/)
 5. The code to being able to use enter, down and up buttons in the game is taken from [W3School](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
 6. Styling for the header is inspired by [Log Rocket](https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/)
 7. Start button is inspired of [Get css scan](https://getcssscan.com/css-buttons-examples)#83
+8. Box shadow on camecards is inspired of [CSS tricks](https://css-tricks.com/almanac/properties/b/box-shadow/)
 
 ### Media
 The image for the game cards is taken from [Team renewable artic Finland](https://teamrenewablearctic.fi/2021/04/23/new-climate-targets-announced/)
