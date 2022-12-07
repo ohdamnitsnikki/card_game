@@ -161,6 +161,7 @@ header>h1{
 
 hr{
     margin:0;
+    height: 76px;
 }
 /*Media query for screen with max-width 900px*/
 
