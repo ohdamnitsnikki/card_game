@@ -17,7 +17,7 @@ The rules are simple:
   src="assets/images/phoneview.PNG"
   alt="The site in phoneview" 
   title="The site in phoneview"
-  style="display: block; margin: 0 auto; max-width: 300px">
+  style="display: block; margin: 0 auto; max-width: 250px">
 
 ## Features
 
@@ -25,10 +25,10 @@ The rules are simple:
 The heading is very simple to not draw the attention from the game, it only contain the games name to move the attention futher down to the game.
 
 <img
-  src="assets/images/heading.PNG"
+  src="assets/images/header.PNG"
   alt="The header" 
   title="The header"
-  style="display: block; margin: 0 auto; max-width: 200px">
+  style="display: block; margin: 0 auto; max-width: 400px">
 
 ### The Gamefield
 The gamefield displays a bow where all the user needs to know and do are inculded.
@@ -52,28 +52,37 @@ The rules informs the player of how the game is built.
 The two cards will show the users number to the left and the computers number to the right.
 
 <img
-  src="assets/images/gamecard.PNG"
+  src="assets/images/gamecards.PNG"
   alt="The gamecard" 
   title="The gamecard"
-  style="display: block; margin: 0 auto; max-width: 100px">
+  style="display: block; margin: 0 auto; max-width: 350px">
 
 #### Buttons
 The three buttons are for the user guess, higher or lower and to start the game.
 
 <img
-  src="assets/images/interaction.PNG"
+  src="assets/images/interact.PNG"
   alt="The game buttons" 
   title="The game buttons"
-  style="display: block; margin: 0 auto; max-width: 500px">
+  style="display: block; margin: 0 auto; max-width: 400px">
 
 #### Scoreboard
 The scoreboard shows the user how many victories and/or defeats they have against the computer.
 
 <img
-  src="assets/images/score.PNG"
+  src="assets/images/scoreboard.PNG"
   alt="The scoreboard" 
   title="The scoreboard"
-  style="display: block; margin: 0 auto; max-width: 200px">
+  style="display: block; margin: 0 auto; max-width: 250px">
+
+#### Footer
+The footer has social links to instagram and facebook.
+
+<img
+  src="assets/images/footer.PNG"
+  alt="The footer" 
+  title="The footer"
+  style="display: block; margin: 0 auto; max-width: 500px">
 
   ### Testing 
   * This page is tested on androids and iphones with the style it's informed to, it works in firefox, chrome but not in explorer. 
@@ -84,6 +93,7 @@ The scoreboard shows the user how many victories and/or defeats they have agains
   * Start button disables after being used to make the user make a game guess, the up and down buttons are insead enabled at this point. 
   * Start button is enabled again after users guess and a score is added to either victory or defeat depending on if the user or the computer won. 
   * Up and down buttons are again disabled at this point.
+  * Footer links opens in a new window.
 
   In the begining of my testing the scores wheren't given to the right winner. I hadn't target the num1 and num2 in parseInt which wasn't making in the look of it but when looked in the conslole js changed place of num1 and num2 when calculating the score.
 
