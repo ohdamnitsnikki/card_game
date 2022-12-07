@@ -58,7 +58,7 @@ header>h1{
 
 .rules {
     border-bottom: 1px black solid;
-
+    font-family: cursive;
 }
 
 .rules>h2 {
@@ -67,7 +67,10 @@ header>h1{
 
 .rules>p {
     font-size: large;
+}
 
+.p{
+display:contents;
 }
 
 /*game cards*/
@@ -204,6 +207,11 @@ hr{
     .interact {
         margin-top: 5%;
 }
+    .hide{
+        display:none;
+
+}
+
 }
 
 /*Media query for screen with max-width 530px*/
