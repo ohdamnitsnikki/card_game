@@ -207,7 +207,7 @@ hr{
 @media screen and (max-width: 530px) {
 
     header {
-        height: 32vh;
+        height: 26vh;
     }
 
     .game-card-left, .game-card-right{
